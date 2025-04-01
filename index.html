@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Unanimous</title>
+    <link rel="stylesheet" href="AU.css">
+    <script defer src="AU.css"></script>
+</head>
+<body onload="requestLocationPermission()">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#introduction">INTRODUCTION</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#steps">STEPS</a></li>
+                <li><a href="#register" class="register-btn">REGISTER</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="introduction" class="section">
+        <h1>ANONYMOUS UNANIMOUS</h1>
+        <p>Anonymous Unanimous enables individuals in a community to seek help from their neighbors via SMS. Initially, the individual scans a QR code that directs them to this website, where they can enter their name, mobile number, and location. These details are then stored in a database. When the individual needs assistance, the individual can send message to the specified number on website and the middleman server  will forward the message  to all registered users in the same location, ensuring that help reaches those in need efficiently.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>OUR SERVICES</h2>
+        <p><strong>1. User Registration via QR Code:</strong><br>
+* Individuals can scan a QR code to access the registration website.<br>
+* They enter their name, phone number, and location, which is stored in a database.<br>
+<strong>2. SMS-Based Help Request:</strong><br>
+* Users can send an SMS to a specific number when they need assistance.<br>
+* No internet is required, making it accessible in remote areas.<br>
+<strong>3. No installation of any app</strong><br>
+<strong>4. Location-Based Filtering:</strong><br>
+* Messages are sent only to registered users in the same location, ensuring relevant help.<br>
+<strong>5. Profanity Filtering:</strong><br>
+* The system checks messages for inappropriate language before forwarding them.<br></p>
+    </section>
+
+    <section id="steps" class="section">
+        <h2>HOW IT WORKS</h2>
+        <p>
+            <strong>Step 1:</strong> Register using your name and mobile number.<br>
+            <strong>Step 2:</strong> A specified number will be generated for you.<br>
+            <strong>Step 3:</strong> Save this specified number on your mobile.<br>
+            <strong>Step 4:</strong> Use this number to communicate to us via messages.<br>
+            <strong>Step 5:</strong> Allow location permissions for an optimized experience.
+        </p>
+    </section>
+
+    <section id="register" class="section">
+        <h2>REGISTER NOW</h2>
+        <form action="https://your-railway-app-url.com/register" method="POST">
+            <input type="text" name="name" placeholder="Enter Name" required>
+            <input type="text" name="mobile" placeholder="Enter Mobile Number" required>
+            <input type="text" name="location" placeholder="Enter Location" required>
+            <button type="submit">Register</button>
+        </form>
+        
+    </section>
+</body>
+</html>
